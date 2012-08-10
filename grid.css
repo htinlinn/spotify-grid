@@ -1,0 +1,62 @@
+h1 {
+	text-align: center;
+	font-size: 24px;
+	padding: 20px;
+}
+
+ul li {
+	display: inline-block;
+}
+
+div.figure {
+	text-align: left;
+	position: relative;
+	top: 0px;
+	left: 0px;
+  	width: 170px;
+  	height: 200px;
+  	margin: 15px 10px;
+}
+
+div.sp-player {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	width: 150px;
+	height: 150px;
+}
+
+div.sp-player-image {
+	border-radius: 0px;
+	box-shadow: 0px 2px 4px 0px #444;
+}
+
+div.name, div.artist {
+  	width: 100%;
+  	height: 15px;
+  	position: absolute;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  	text-align: center;
+  	font-size: 9pt;
+}
+
+div.name {
+	top: 160px;
+	left: 0px;
+	font-weight: bold;
+}
+
+div.artist {
+	top: 178px;
+	left: 0px;
+}
+
+a.name_link {
+	color: #333;
+}
+
+a.artist_link {
+	color: #666;
+}

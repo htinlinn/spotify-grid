@@ -1,0 +1,13 @@
+{
+	"BundleType": "Application",
+	"BundleIdentifier": "grid",
+	"AppIcon": {
+		"36x18": "grid.png"
+	},
+	"AppName": {
+		"en": "Grid"
+	},
+	"SupportedLanguages": [
+		"en"
+	]
+}
