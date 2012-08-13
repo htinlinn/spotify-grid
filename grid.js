@@ -18,6 +18,12 @@ function resize() {
 	container.style.paddingTop = '10px';
 }
 
+function loadAlbum(player, uri) {
+	models.Album.fromURI(uri, function(album) { 
+	    player.context = album;
+	});	
+}
+
 function createPage() {
 	var library = models.library;
 	var albums = library.albums;
@@ -74,10 +80,7 @@ function createPage() {
 		
 			var views = sp.require('sp://import/scripts/api/views');
 			var player = new views.Player();
-			player.context = album;		
-			models.Album.fromURI(album.uri, function(a) { 
-			    player.context = a; 
-			});
+			loadAlbum(player, album.uri);
 
 			figure.appendChild(player.node); 
 			figure.appendChild(name);
