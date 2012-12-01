@@ -2,7 +2,7 @@ Grid
 ============
 A [Spotify](http://spotify.com) app that presents your Spotify library in an iTunes-like grid interface.
 
-![Grid Preview](https://github.com/htinlinn/spotify-grid/raw/master/grid-preview.tiff "Preview")
+![Grid Preview](https://github.com/htinlinn/spotify-grid/raw/master/grid-preview.png "Preview")
 
 Installation
 ------------
